@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    <script src=scripts/showinfo.js>
+    </script>
+<div class="form">
+  <div class="form-container">
+    <div class="form-form">
+      <form>
+        <fieldset id="vcenter">
+        <legend>Vcenter</legend>
+        <label for="Vcenter">Vcenter Server</label>
+        <select id="vcenter_servers" name="vcenter">
+            <option value="172.25.32.79">172.25.32.79</option>
+            <option value="bwivcsp01.ilg.ad">bwivcsp01.ilg.ad</option>
+            <option value="awivcsp04.ilg.ad">awivcsp04.ilg.ad</option>
+        </select><br>
+
+        <label for="Datacenter">Datacenter:</label>
+        <input type="text" name="Datacenter" id="Datacenter" required> <button id=dcenter_id onclick=showinfo("DC") type="button">Show Datacenters</button><br>
+        <label for="Cluster">VMware Cluster</label>
+        <input type="text" name="Cluster" id="Cluster" required> <button id=cluster_id onclick=showinfo("HS") type="button">Show Clusters</button><br>
+        <button id=ds_id  onclick=showinfo("DS")  type="button">Show Datastores</button><br>
+
+        <button id=pg_id  onclick=showinfo("PG") type="button">Show Portgroups</button><br>
+        <button id=vm_id  onclick=showinfo("VM") type="button">Show VM Guests</button><br><br><br>
+        <button id=documentation_id  onclick=show_documentation() type="button">MVWC Guest Provisioning Documentation</button><br>
+        </select><br>
+    </fieldset>
+
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

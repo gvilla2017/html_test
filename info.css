@@ -1,0 +1,166 @@
+fieldset {
+  border: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#vcenter {
+    display: flex;
+    border: 10px groove #00C957;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+  justify-content: space-between;
+}
+
+#datacenter {
+    display: flex;
+    border: 10px groove #00C957;
+    padding: 20px;
+    width: 300px;
+    height: 380px;
+  justify-content: space-between;
+}
+
+#vmguest {
+    display: flex;
+    border: 10px groove #00C957;
+    padding: 20px;
+    width: 300px;
+    height: 380px;
+  justify-content: space-between;
+}
+
+#resource {
+    display: flex;
+    border: 10px groove #00C957;
+    padding: 20px;
+    width: 300px;
+    height: 380px;
+  justify-content: space-between;
+}
+
+#Post {
+    display: flex;
+    border: 10px groove #8E8BD8;
+    padding: 20px;
+    width: 400px;
+    height: 700;
+  justify-content: space-between;
+}
+
+#Decomm {
+    display: flex;
+    border: 10px groove #D8988B;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+  justify-content: space-between;
+}
+
+#submitobey {
+    border: 1px solid black;
+    font-size: .8rem;
+    background-color: white;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    margin-top: .8rem;
+    height: 50px;
+    width: 300px;
+  justify-content: space-between;
+
+}
+#submitobey:hover {
+    background-color: #00C957;
+}
+
+#submitdecom {
+    border: 1px solid black;
+    font-size: .8rem;
+    background-color: white;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    margin-top: .8rem;
+    height: 50px;
+    width: 300px;
+
+}
+#submitdecom:hover {
+    background-color: #D8988B;
+}
+
+#submitpost {
+    border: 1px solid black;
+    font-size: .8rem;
+    background-color: white;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    margin-top: .8rem;
+    height: 50px;
+    width: 300px;
+
+}
+#submitpost:hover {
+    background-color: #8E8BD8;
+}
+
+#lblnewfs {
+    visibility: collapse;
+}
+#dnewfs {
+    visibility: collapse;
+}
+#lblsize {
+    visibility: collapse;
+}
+#disksize {
+    visibility: collapse;
+}
+#lblext {
+    visibility: collapse;
+}
+#Extfs {
+    visibility: collapse;
+}
+
+
+
+
+#lblfs {
+    visibility: collapse;
+}
+#dfs {
+    visibility: collapse;
+}
+#lblsz {
+    visibility: collapse;
+}
+#dsize {
+    visibility: collapse;
+}
+
+
+
+
+#dcenter_id:hover {
+    background-color: #78DF52;
+}
+#cluster_id:hover {
+    background-color: #78DF52;
+}
+#ds_id:hover {
+    background-color: #78DF52;
+}
+#pg_id:hover {
+    background-color: #78DF52;
+}
+#vm_id:hover {
+    background-color: #78DF52;
+}
+#documentation_id:hover {
+    background-color: #78DF52;
+}
+
