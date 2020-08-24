@@ -1,11 +1,11 @@
-CODE_CHANGES =getGitChanges()
+// CODE_CHANGES =getGitChanges()
 
 pipeline {
 
 	agent any
-	tools {
-		maven
-	}
+//	tools {
+//		maven
+//	}
 	environment {
 		NEW_VERSION = '1.3.0'
 		SERVER_CREDENTIALS = credentials('server_cdredentials')
@@ -14,10 +14,10 @@ pipeline {
 	stages {
 
 		stage("build") {
-			when {
-				expression {
-					BRANCH_NAME == 'dev' &&CODE_CHANGES == true
-				}
+//			when {
+//				expression {
+//					BRANCH_NAME == 'dev' && CODE_CHANGES == true
+//				}
 
 			steps {
 				echo "building version ${NEW_VERSION}"
@@ -52,7 +52,7 @@ pipeline {
 //		}
 }
 
-node {
+//node {
 	// groovy script
 
-}
+//}
